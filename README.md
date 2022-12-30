@@ -12,5 +12,5 @@ The differences are:
 
 
 ## Result:
-I am pretty sure the model sucks unless we feed a very reach data.
+I am pretty sure the model sucks unless we feed a very rich data.
 
