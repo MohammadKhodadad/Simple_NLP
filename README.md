@@ -1,7 +1,9 @@
 ### Simple word2vec
 
 This document was to train and test word2vec model
-the code to train the model is almost exactly this: https://www.tensorflow.org/tutorials/text/word2vec , but changed slightly, for the sake of learning
+The code has three parts.
+The first part is to train the model and is almost exactly this: https://www.tensorflow.org/tutorials/text/word2vec , but changed slightly, for the sake of learning.
+The second and third part are from this: https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html, but changed to a considerable degree.
 
 The differences are:
 1) Changed the input dataset.
