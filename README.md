@@ -9,6 +9,7 @@ The differences are:
 3) changed the design of the model
 4) wrote a similarity function at the end
 5) imported genism and tested the results with genism
+6) Since results were good, trained GENISM with data, and the result was bad again :). (DATA ISSUE)
 
 
 ## Result:
