@@ -28,3 +28,14 @@ The differences are:
 
 #### Result:
 I replaced the model with two very simple models, one word wise dense, and one with two layers of attention. Both were almost as good as the complicated transformer based model that the link suggests. I am not yet very expert at this, but seemed the data was too easy.
+
+
+### Language Modeling
+The code is based on shakespear dataset like word2vec.
+Model was tested with multiple multihead attentions and lstms as well.
+
+#### Result:
+The data is very limited, so we cannot expect a good result. Besides, I didn't tune the model. Just tested a few architectures.
+Generated sentences:
+king of  the poor business to the poor three and out of the gods i have been a man to the business.
+king of  my brother then or i thank thee good sir in and i am too young i fear fearful grace.
