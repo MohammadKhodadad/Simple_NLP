@@ -30,7 +30,7 @@ The differences are:
 I replaced the model with two very simple models, one word wise dense, and one with two layers of attention. Both were almost as good as the complicated transformer based model that the link suggests. I am not yet very expert at this, but seemed the data was too easy.
 
 
-### Language Modeling
+### TextGeneration
 The code is based on shakespear dataset like word2vec.
 Model was tested with multiple multihead attentions and lstms as well.
 
