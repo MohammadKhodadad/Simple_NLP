@@ -16,7 +16,7 @@ The differences are:
 #### Result:
 I am pretty sure the model sucks unless we feed a very rich data.
 
-### Name Entity Recognition
+### Named Entity Recognition
 
 The code has two parts.
 The script is from this: https://keras.io/examples/nlp/ner_transformers/ , but greatly changed.
