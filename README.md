@@ -1,3 +1,8 @@
+## Simple_NLP
+This repo is to gather everything I learned throughout the course CS224N by Stanford University, https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ.
+
+
+
 ### word2vec
 
 The code has three parts.
