@@ -39,3 +39,10 @@ The data is very limited, so we cannot expect a good result. Besides, I didn't t
 Generated sentences:
 king of  the poor business to the poor three and out of the gods i have been a man to the business.
 king of  my brother then or i thank thee good sir in and i am too young i fear fearful grace.
+
+
+### TextGeneration_v2
+This time I tried to make the model more advanced. First, I changed the dataset to something larger. Second, I changed the design of the model so that now the output is the input shifter forward, which helps the training process a lot. Third, I added Perplexity to the metrics of the model, and Finally, I worked on class_weights. The forumla for class weight I used was: min(30,1/(count+1)**0.66)
+
+#### Result:
+I didn't train a lot. The lowest perplexity on the test set I got was 600. A test result was: "You loved to be good and I was a good and I was a good." which is a cyclic output, but there was low perplexity difference between training set and test set which is a good thing to know as an ML-Engineer. Something I need to pay attention to is the class_weight. 
